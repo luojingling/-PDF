@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		C70A9D961C51D53D007F13F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A9D951C51D53D007F13F6 /* main.m */; };
 		C70A9D991C51D53D007F13F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A9D981C51D53D007F13F6 /* AppDelegate.m */; };
-		C70A9D9C1C51D53D007F13F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A9D9B1C51D53D007F13F6 /* ViewController.m */; };
 		C70A9D9F1C51D53D007F13F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70A9D9D1C51D53D007F13F6 /* Main.storyboard */; };
 		C70A9DA11C51D53D007F13F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70A9DA01C51D53D007F13F6 /* Assets.xcassets */; };
-		C70A9DA41C51D53D007F13F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70A9DA21C51D53D007F13F6 /* LaunchScreen.storyboard */; };
 		C70A9DAF1C51D53D007F13F6 /* preview_PDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A9DAE1C51D53D007F13F6 /* preview_PDFTests.m */; };
 		C70A9DBA1C51D53D007F13F6 /* preview_PDFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A9DB91C51D53D007F13F6 /* preview_PDFUITests.m */; };
+		C70A9DC91C51FA22007F13F6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A9DC81C51FA22007F13F6 /* SecondViewController.m */; };
+		C70A9DCC1C51FA62007F13F6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A9DCB1C51FA62007F13F6 /* FirstViewController.m */; };
+		C70A9DCF1C52312B007F13F6 /* DirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A9DCE1C52312B007F13F6 /* DirectoryWatcher.m */; };
+		C7C789341C59C5B7002B0995 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C789331C59C5B7002B0995 /* ThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +41,8 @@
 		C70A9D951C51D53D007F13F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C70A9D971C51D53D007F13F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C70A9D981C51D53D007F13F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C70A9D9A1C51D53D007F13F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C70A9D9B1C51D53D007F13F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C70A9D9E1C51D53D007F13F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C70A9DA01C51D53D007F13F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C70A9DA31C51D53D007F13F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C70A9DA51C51D53D007F13F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C70A9DAA1C51D53D007F13F6 /* preview_PDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = preview_PDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70A9DAE1C51D53D007F13F6 /* preview_PDFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = preview_PDFTests.m; sourceTree = "<group>"; };
@@ -51,6 +50,14 @@
 		C70A9DB51C51D53D007F13F6 /* preview_PDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = preview_PDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70A9DB91C51D53D007F13F6 /* preview_PDFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = preview_PDFUITests.m; sourceTree = "<group>"; };
 		C70A9DBB1C51D53D007F13F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70A9DC71C51FA22007F13F6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C70A9DC81C51FA22007F13F6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C70A9DCA1C51FA62007F13F6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C70A9DCB1C51FA62007F13F6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C70A9DCD1C52312B007F13F6 /* DirectoryWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryWatcher.h; sourceTree = "<group>"; };
+		C70A9DCE1C52312B007F13F6 /* DirectoryWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryWatcher.m; sourceTree = "<group>"; };
+		C7C789321C59C5B7002B0995 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		C7C789331C59C5B7002B0995 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +110,16 @@
 			children = (
 				C70A9D971C51D53D007F13F6 /* AppDelegate.h */,
 				C70A9D981C51D53D007F13F6 /* AppDelegate.m */,
-				C70A9D9A1C51D53D007F13F6 /* ViewController.h */,
-				C70A9D9B1C51D53D007F13F6 /* ViewController.m */,
+				C70A9DCA1C51FA62007F13F6 /* FirstViewController.h */,
+				C70A9DCB1C51FA62007F13F6 /* FirstViewController.m */,
+				C70A9DC71C51FA22007F13F6 /* SecondViewController.h */,
+				C70A9DC81C51FA22007F13F6 /* SecondViewController.m */,
+				C70A9DCD1C52312B007F13F6 /* DirectoryWatcher.h */,
+				C70A9DCE1C52312B007F13F6 /* DirectoryWatcher.m */,
+				C7C789321C59C5B7002B0995 /* ThreeViewController.h */,
+				C7C789331C59C5B7002B0995 /* ThreeViewController.m */,
 				C70A9D9D1C51D53D007F13F6 /* Main.storyboard */,
 				C70A9DA01C51D53D007F13F6 /* Assets.xcassets */,
-				C70A9DA21C51D53D007F13F6 /* LaunchScreen.storyboard */,
 				C70A9DA51C51D53D007F13F6 /* Info.plist */,
 				C70A9D941C51D53D007F13F6 /* Supporting Files */,
 			);
@@ -243,7 +255,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70A9DA41C51D53D007F13F6 /* LaunchScreen.storyboard in Resources */,
 				C70A9DA11C51D53D007F13F6 /* Assets.xcassets in Resources */,
 				C70A9D9F1C51D53D007F13F6 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70A9D9C1C51D53D007F13F6 /* ViewController.m in Sources */,
+				C70A9DC91C51FA22007F13F6 /* SecondViewController.m in Sources */,
+				C70A9DCC1C51FA62007F13F6 /* FirstViewController.m in Sources */,
 				C70A9D991C51D53D007F13F6 /* AppDelegate.m in Sources */,
+				C7C789341C59C5B7002B0995 /* ThreeViewController.m in Sources */,
+				C70A9DCF1C52312B007F13F6 /* DirectoryWatcher.m in Sources */,
 				C70A9D961C51D53D007F13F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +328,6 @@
 				C70A9D9E1C51D53D007F13F6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C70A9DA21C51D53D007F13F6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C70A9DA31C51D53D007F13F6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,7 +417,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xincai Wu (DAP9GMLT52)";
 				INFOPLIST_FILE = preview_PDF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bowo.pin8.preview-PDF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xincai Wu (DAP9GMLT52)";
 				INFOPLIST_FILE = preview_PDF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bowo.pin8.preview-PDF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +506,7 @@
 				C70A9DC01C51D53D007F13F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C70A9DC11C51D53D007F13F6 /* Build configuration list for PBXNativeTarget "preview_PDFTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				C70A9DC31C51D53D007F13F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C70A9DC41C51D53D007F13F6 /* Build configuration list for PBXNativeTarget "preview_PDFUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				C70A9DC61C51D53D007F13F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

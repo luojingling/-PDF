@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ThreeViewController : UIViewController
-
+@property (nonatomic,strong) NSString *fileStr;
 @end

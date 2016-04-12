@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <QuickLook/QuickLook.h>
 @interface FirstViewController : UIViewController
 
 @end
